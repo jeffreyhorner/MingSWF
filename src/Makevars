@@ -1,0 +1,5 @@
+ifdef MINGSWFDEBUG
+	PKG_CFLAGS+=-DMINGSWFDEBUG
+endif
+PKG_CFLAGS+=-I/usr/local/include
+PKG_LIBS+=-L/usr/local/lib -lz -lm -lpng -lming

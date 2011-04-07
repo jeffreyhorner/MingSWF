@@ -1,0 +1,5 @@
+# Name of the shared object to load, plus the .Call function names
+useDynLib(MingSWF,MingSWFNew)
+
+# R function found in R/MingSWF.R
+export(MingSWF)

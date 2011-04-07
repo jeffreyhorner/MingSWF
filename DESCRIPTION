@@ -1,0 +1,10 @@
+Package: MingSWF
+Version: 0.1-1
+Title: An R graphics device for creating Adobe SWF files using the ming library.
+Author: Jeffrey Horner <jeff.horner@vanderbilt.edu>
+Maintainer: Jeffrey Horner <jeff.horner@vanderbilt.edu>
+Depends: R (>= 2.7.1)
+Description: The MingSWF graphics device creates Adobe SWF files using the the ming library (http://www.libming.org/).
+License: GPL version 2
+SystemRequirements: libming (>= 0.4.0 http://www.libming.org/)
+URL: http://www.rforge.net/MingSWF/
